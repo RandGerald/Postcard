@@ -128,12 +128,13 @@
                     <connections>
                         <outlet property="enterMessageTextField" destination="O8L-q8-vsY" id="VLA-dE-34S"/>
                         <outlet property="enterNameTextField" destination="sP2-7P-Nfx" id="1uT-QA-6IU"/>
+                        <outlet property="mailButton" destination="HFB-zz-Zaz" id="GMf-eD-K6N"/>
                         <outlet property="messageLabel" destination="INN-Mk-BBa" id="4Y9-Cq-1an"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1795.5" y="330"/>
+            <point key="canvasLocation" x="1884" y="332"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C8Q-zQ-fOg">
