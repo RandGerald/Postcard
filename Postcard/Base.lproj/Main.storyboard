@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8UW-po-BAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="880.5" y="324"/>
+            <point key="canvasLocation" x="857" y="324"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -104,6 +104,15 @@
                                     <rect key="frame" x="186" y="137" width="108" height="76"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t30-m0-wBO">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="137" width="147" height="38"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="HFB-zz-Zaz"/>
                                 <exclude reference="INN-Mk-BBa"/>
                                 <exclude reference="rfU-bg-dn8"/>
+                                <exclude reference="t30-m0-wBO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="HFB-zz-Zaz"/>
                                 <include reference="INN-Mk-BBa"/>
                                 <include reference="rfU-bg-dn8"/>
+                                <include reference="t30-m0-wBO"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,11 +141,12 @@
                         <outlet property="enterNameTextField" destination="sP2-7P-Nfx" id="1uT-QA-6IU"/>
                         <outlet property="mailButton" destination="HFB-zz-Zaz" id="GMf-eD-K6N"/>
                         <outlet property="messageLabel" destination="INN-Mk-BBa" id="4Y9-Cq-1an"/>
+                        <outlet property="nameLabel" destination="t30-m0-wBO" id="g22-Wm-m78"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1884" y="332"/>
+            <point key="canvasLocation" x="1542" y="324"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C8Q-zQ-fOg">
